@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+#playerScores{
+    font-size: 5rem;
+    margin-top: -4rem;
+}
+button{
+    font-family: cursive;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+
+span{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.winner{
+    color: green;
+}
+
+.loser{
+color: red;
+}
+
+.container-sm{
+    padding-left: 20px;
+    padding-right: 50px;
+}
+@media (max-width:320px) {
+    #playerScores{
+        font-size: 4.5rem;
+    }
+}
